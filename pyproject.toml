@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "surveyai"
+version = "0.1.0"
+description = ""
+authors = ["Soumya <soumyat686@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.8.2"
+langchain-openai = "^0.1.23"
+pandas = "^2.2.2"
+openai = "^1.43.0"
+plotly = "^5.24.0"
+nbformat = ">=4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
